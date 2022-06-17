@@ -15,7 +15,8 @@
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Img)
+                           <img id="original" src="data:image/png;base64,@Convert.ToBase64String(model.Img)" width="80" height="80" />
+
         </dd>
 
         <dt>
